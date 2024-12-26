@@ -31,3 +31,5 @@ Desenvolvi também telas na intranet corporativa com AngularJS para a
 interação dos usuários estratégicos com as soluções antifraude, e
 implantação de métricas com opentelemetry, e análises de logs com
 Grafana e Cloudwatch.
+
+Espero que com essa experiência eu possa compartilhar o conhecimento adquido ao longo dos anos e estudos, de modo a ter a minha jornada documentada e ao mesmo tempo ajudar a quem se interessar pelos temas expostos por aqui. 
