@@ -24,7 +24,7 @@ Rede, que é processado visando a performance, disponibilidade,
 escalabilidade e resiliência das aplicações, em um ambiente de
 microserviços em nuvem, adotando técnicas de comunicação assíncrona, mensageria,
 multithreading, soluções como Docker e Kubernetes, e serviços AWS como
-S3, SQS, SINS, API Gateway, aplicações serverless com Lambda e DynamoDB,
+S3, SQS, SNS, API Gateway, aplicações serverless com Lambda e DynamoDB,
 e containers com ECS e EKS. Já trabalhei também, com Glue para ETL e democratização de grande volumes de dados usando PySpark e StepFunctions para orquestração do dataflow.
 
 Desenvolvi telas na intranet corporativa com AngularJS para a
