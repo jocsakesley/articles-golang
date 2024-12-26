@@ -22,13 +22,12 @@ qualidade e desenho da arquitetura em nuvem.
 No time de prevenção a fraudes, recebemos todo o fluxo transacional da
 Rede, que é processado visando a performance, disponibilidade,
 escalabilidade e resiliência das aplicações, em um ambiente de
-microserviços em nuvem, adotando técnicas de comunicação assíncrona,
+microserviços em nuvem, adotando técnicas de comunicação assíncrona, mensageria,
 multithreading, soluções como Docker e Kubernetes, e serviços AWS como
 S3, SQS, SINS, API Gateway, aplicações serverless com Lambda e DynamoDB,
-e containers com ECS e EKS. Além desses serviços, já trabalhei, com
-menos frequência, com GlueJobs para processamento de grandes volumes de
-dados usando PySpark e StepFunctions para orquestração do dataflow.
-Desenvolvi também telas na intranet corporativa com AngularJS para a
+e containers com ECS e EKS. Já trabalhei também, com Glue para ETL e democratização de grande volumes de dados usando PySpark e StepFunctions para orquestração do dataflow.
+
+Desenvolvi telas na intranet corporativa com AngularJS para a
 interação dos usuários estratégicos com as nossas soluções antifraude, e
 implantação de métricas com opentelemetry, e análises de logs com
 Grafana e Cloudwatch.
