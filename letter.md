@@ -1,7 +1,7 @@
 # Quem sou eu?
 Olá, sou o Jocsã e trabalho com TI há mais de 10 anos, passando pelas
 áreas de suporte e infraestrutura onprimeses, redes de computadores e em
-torno de 6 anos comecei minhas jornada como desenvolvedor. 
+torno de 6 anos comecei minha jornada como desenvolvedor. 
 
 Inicialmente comecei na programação para automatizar tarefas e fazer
 análises de dados para projetos pessoais, porém vi a necessidade de me
@@ -15,8 +15,7 @@ A partir desta experiência consegui a primeira grande oportunidade como
 Desenvolvedor Pleno na empresa TCS para atuar com Python e Golang na AWS
 no time de prevenção a fraudes do cliente Rede/Itaú. Com isso, as minhas
 habilidades como desenvolvedor em grandes projetos cresceram de forma
-exponencial em um modelo de desenvolvimento self-service, em que os
-próprios desenvolvedores são responsáveis pelo provisionamento de infra,
+exponencial devido ao apoio de um time de desenvolvedores fora da curva e a adoção de um modelo de desenvolvimento self-service, em que os próprios desenvolvedores são responsáveis pelo provisionamento de infra,
 qualidade e desenho da arquitetura em nuvem. 
 
 No time de prevenção a fraudes, recebemos todo o fluxo transacional da
