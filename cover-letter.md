@@ -1,5 +1,5 @@
 # Quem sou eu?
-## ...
+...
 Olá, sou o Jocsã e trabalho com TI há mais de 10 anos, passando pelas
 áreas de suporte e infraestrutura onprimeses, redes de computadores e em
 torno de 6 anos comecei minha jornada como desenvolvedor. 
