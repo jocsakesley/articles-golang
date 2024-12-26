@@ -24,9 +24,9 @@ escalabilidade e resiliência das aplicações, em um ambiente de
 microserviços em nuvem, adotando técnicas de comunicação assíncrona, mensageria,
 multithreading, soluções como Docker e Kubernetes, e serviços AWS como
 S3, SQS, SNS, API Gateway, aplicações serverless com Lambda e DynamoDB,
-e containers com ECS e EKS. Já trabalhei também, com Glue para ETL e democratização de grande volumes de dados usando PySpark e StepFunctions para orquestração do dataflow.
+e containers com ECS e EKS, com Glue para ETL e democratização de grande volumes de dados usando PySpark e StepFunctions para orquestração do dataflow.
 
-Desenvolvi telas na intranet corporativa com AngularJS para a
-interação dos usuários estratégicos com as nossas soluções antifraude, e
+Desenvolvi também telas na intranet corporativa com AngularJS para a
+interação dos usuários estratégicos com as soluções antifraude, e
 implantação de métricas com opentelemetry, e análises de logs com
 Grafana e Cloudwatch.
