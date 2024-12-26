@@ -11,7 +11,11 @@ Durante a minha jornada tive a oportunidade de pensar e discutir soluções com 
 
 Porém, pensar apenas em custo/benefício sem pensar em qualidade pode se tornar um problema quando falamos em manutenção e código compartilhado. Uma simples alteração pode se tornar um <i>deploy</i> problemático lá na frente.
 
-Por isso que a entrega de um software vai além de apenas conhecer tecnicamente muito bem uma linguagem, é necessário também, além do conhecimento de negócio, a aplicação das boas práticas de desenvolvimento, que abrangem o que já é tão falando em nosso meio: Clean Code com SOLID, Clean Archtecture, TDD, DDD, BDD, Design Patterns e por aí vai. Mas note que dominar tudo isso na ponta dos dedos pode ser uma tarefa que pode durar anos de dedicação e aplicação prática, porém a boa notícia é que dá para tirar proveito dos principais conceitos tendo em mente alguns princípios base, que aplicados de forma correta farão com que o próprio software grite para você o que ele precisa.
+Por isso que a entrega de um software vai além de apenas conhecer tecnicamente muito bem uma linguagem, é necessário também, além do conhecimento de negócio, a aplicação das boas práticas de desenvolvimento, que abrangem o que já é tão falando em nosso meio: Clean Code com SOLID, Clean Archtecture, TDD, DDD, BDD, Design Patterns e por aí vai. 
+
+Mas note que dominar tudo isso na ponta dos dedos pode ser uma tarefa que pode durar anos de dedicação e aplicação prática, porém a boa notícia é que dá para tirar proveito dos principais conceitos tendo em mente alguns princípios base, que aplicados de forma correta farão com que o próprio software grite para você o que ele precisa.
+
+Dessa forma, proponho uma série de artigos que irão documentar a implementação de um cenário comum no meio corporativo, considerando que nem tudo que está proposto já foi implementado por mim, mas que me farão construir, a pequenos passos, um caminho de descobertas e aprendizados. 
 
 O objetivo desta série de artigos é: 
  - Trazer código e ferramentas aplicadas de maneira prática em pequenos contextos com a devida explicação
