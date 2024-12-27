@@ -6,9 +6,14 @@ Para a criação de um servidor web, por exemplo, poderíamos escolher um _frame
 
 A seguir irei demonstrar como executar isso na prática e os passos que fiz para chegar no resultado alcançado.
 
-## Estrutura
+## Estrutura do projeto
 
 ![image](https://github.com/user-attachments/assets/8405451c-98a0-4041-9107-0a47e34484ee)
+
+Há muitas formas de estruturar um projeto, desde o padrão MVC até arquiteturas mais elaboaradas como a Clean Archtecture que apresentam mais camadas e as relações entre elas. O que propus na imagem acima é baseado na Clean Archtecture, mas por quanto não todas as camadas, que pode ter o seu fluxo bem exemplificado naquela [imagem com círcuclos coloridos e concêntricos seguindo uma direção](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html). Não há um modelo de estrutura de pastas nessa arquitetura, mas sim a aplicação dos conceitos de forma distribuída pelo código que dá a liberdade de organizar da forma que haja uma melhor separação dos contextos. Já vi a implementação com varias estruturas de pastas e vários nomes diferentes, mas no final das contas o que importa é se o fluxo de relacionamento entre as camadas está sendo seguido.
+
+### 
+
 
 
 [Início](./index.md)
