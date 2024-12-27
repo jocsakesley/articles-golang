@@ -4,11 +4,13 @@ Quando falamos de boas práticas de desenvolvimento, alguns nomes influentes e s
 
 Para a criação de um servidor web, por exemplo, poderíamos escolher um _framework_, acessar o _quickstart_ da documentação e seguir a vida implementando os nossos _controllers_ e demais lógicas da nossa aplicação. Novamente, isso para um projeto pequeno, atenderia, e ouso arriscar que até mesmo para projetos grandes, porque dificilmente eu precisaria mudar o _framework_ depois de escolhido. Mas existe um princípio de boas práticas que me incomoda cada vez que abro o código e vejo ele violado, em que uma classe não deveria depender diretamente de uma implementação e sim de uma interface que define um contrato que qualquer implementação deve ter. Nesse caso podemos considerar que não deveríamos depender da implementação de qualquer lib externa de _framework_ web, e sim de uma interface que define os métodos de uma nova implementação que faz a adaptação das libs externas. Pode parecer confuso em um primeiro momento, e nem sempre é tão intuitivo de excutar, mas com esse princípio consigo garantir que o meu sistema não esteja dependente fortemente de uma implementação externa e dar o _check_ em mais alguns dos muitos conceitos de boas práticas.
 
-A seguir irei demonstrar como executar isso na prática e os passos que fiz para chegar no resultado alcançado
+A seguir irei demonstrar como executar isso na prática e os passos que fiz para chegar no resultado alcançado.
 
 ## Estrutura
 
 ![image](https://github.com/user-attachments/assets/8405451c-98a0-4041-9107-0a47e34484ee)
 
 
-[Início](./index.md) [Criando API Rest](./rest-api.md)
+[Início](./index.md)
+<br>
+[Criando API Rest](./rest-api.md)
