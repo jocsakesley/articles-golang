@@ -33,7 +33,7 @@ Para tanto devo considerar as minhas devidas qualificações e limitações (ten
 - Conhecimento do funcionamento das pipelines CI/CD do github, mas nunca criei uma pipeline completa com verificação de qualidade e deploy na AWS
 - Conhecimento de frameworks de frontend como ReactJS e AngularJS, apesar de não ser minha atividade principal e nem atuar com frequência nesse tipo de demanda
 
-
+Obs.: Não tenho a intenção de ensinar as bases da linguagem ou das ferramentas, para isso a documentação é sempre o melhor ponto de partida, mas pretendo expôr um modo de pensar que me ajuda a evoluir um projeto conforme a necessidade.
 
 
 [Link to another page](./teste.md).
