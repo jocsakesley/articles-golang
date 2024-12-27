@@ -36,9 +36,10 @@ No arquivo `infra/http/server/interface.go`:
 ![image](https://github.com/user-attachments/assets/7f583f9f-72a2-4ff1-ace7-34322d7e796f)
 
 Criei duas interfaces, `IServer` e `IContext`. Para definir os métodos da interface procurei fazer o _tradeoff_ entre ser autoexplicativo com as limitações dos _frameworks_ utilizados.
+
 No `IServer` tem o `Get` e o `Post` que recebem o path e o controller como `interface{}`, já que para cada _framework_ espera-se um tipo de controller. E o `Run` que recebe a porta e executa o servidor. Eu poderia ter continuado com os demais métodos como o `Delete`, o `Put` e o `Patch`, mas eles seguem o mesmo padrão e na medida que o projeto for evoluindo eles aparecerão naturamente.
 
-O `ÌContext` é uma interface para o contexto do servidor web onde podemos interagir com os metadados da requisição. Normamente o contexto é passado no controller e nele podemos pegar _query_ e _path parameters_, o _body_ e os _headers_ entre outras coisas. Nesse caso o método `Param` espera a chave de um parâmetro passado na URL, o `JSON` espera um _status code_ e um objeto para ser retornado na requisição e o `BodyParser` pega os dados do _body_ e carrega em um objeto para ser manipulado.
+O `ÌContext` é uma interface para o contexto do servidor web onde podemos interagir com os metadados da requisição. Normamente o contexto é passado no controller e nele podemos pegar _query_ e _path parameters_, o _body_ e os _headers_ entre outras coisas. Nesse caso o método `Param` espera a chave de um parâmetro definido na rota e retorna o valor passado na URL, o `JSON` espera um _status code_ e um objeto para ser retornado na requisição e o `BodyParser` pega os dados do _body_ e carrega em um objeto para ser manipulado.
 
 
 
