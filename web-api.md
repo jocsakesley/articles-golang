@@ -33,7 +33,7 @@ Apesar de ter uma lógica simples nos controllers, com o uso da interface posso 
 
 No arquivo `infra/http/server/interface.go`:
 
-![image](https://github.com/user-attachments/assets/7f583f9f-72a2-4ff1-ace7-34322d7e796f)
+![image](https://github.com/user-attachments/assets/0d5ba8cd-f2f9-4a7a-86be-7d9551e2d307)
 
 Criei duas interfaces, `IServer` e `IContext`. Para definir os métodos da interface procurei fazer o _tradeoff_ entre ser autoexplicativo com as limitações dos _frameworks_ utilizados.
 
@@ -51,7 +51,7 @@ Temos a inicialização dos _frameworks_ fiber e gin com uma `scruct` privada (i
 
 | `fiberServer.go`| `ginServer.go` |
 |---|---|
-|![image](https://github.com/user-attachments/assets/42b2f119-e25a-4408-9291-d7ece81ff222) | ![image](https://github.com/user-attachments/assets/c1a809fd-e088-42e3-a30b-20b037399106)|
+|!![image](https://github.com/user-attachments/assets/ad74054e-4af5-4f80-98e5-5df54755982e)| ![image](https://github.com/user-attachments/assets/4aa5b647-7dc7-43c9-b6a9-ac31226beb0e)|
 
 
 [Início](./index.md)
