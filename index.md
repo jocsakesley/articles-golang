@@ -35,5 +35,5 @@ Para tanto devo considerar as minhas devidas qualificações e limitações (ten
 
 Obs.: Não tenho a intenção de ensinar as bases da linguagem ou das ferramentas, para isso a documentação é sempre o melhor ponto de partida, mas pretendo expôr um modo de pensar que me ajuda a evoluir um projeto conforme a necessidade.
 
+<div style="text-align: right">[Criando um servidor web](./web-api.md)</div>
 
-[Criando um servidor web](./web-api.md).
