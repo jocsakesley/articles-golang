@@ -20,9 +20,14 @@ Em um projeto real poderíamos começar diretamente pela camada de usecase, que 
 
 Começando pelo arquivo da pasta infra/http/routes temos o arquivo router.go:
 
-![image](https://github.com/user-attachments/assets/e77e125e-1395-46b7-a24f-0ec6bc8953ef)
+![image](https://github.com/user-attachments/assets/597acf01-e375-44ec-9691-841065b67a13)
 
-Nesse arquivo fazemos o _setup_ das rotas da nossa API recebendo um _server_ como parâmetro, porém ao invés de usar um _framework_ de servidor web diretamente, o SetupRoutes recebe uma interface que contém os métodos HTTP necessários para uma rota a um controller, e retorna o próprio _server_ que contém o método "Run" para iniciar o servidor.
+
+Nesse arquivo fazemos o _setup_ das rotas da nossa API recebendo um _server_ como parâmetro, porém ao invés de usar um _framework_ de servidor web diretamente, o SetupRoutes recebe uma interface que contém os métodos HTTP necessários para uma rota associada a um controller, e retorna o próprio _server_ que contém o método "Run" para iniciar o servidor. 
+
+Implementei inicialmente um método "Get" que recebe uma rota com um _path parameter_ ":name" e um controller que retorna um "Hello, <name>", e um "Post" que recebe um _body_ e retorna o próprio _body_.
+
+Apesar de ter uma lógica simples nos controllers, com o uso da interface posso garantir qualquer escolha de _framework_ com uma implementação dos métodos da interface. Porém para garantir o comportamento esperado ainda se faz necessário a implementação de testes funcionais, dado que posso implementar a interface, mas desviar o comportamento para fazer algo diferente. Os testes funcionais serão tratados em outro artigo.
 
 No arquivo infra/http/server/interface.go:
 
