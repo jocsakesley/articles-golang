@@ -43,7 +43,7 @@ O `ÌContext` é uma interface para o contexto do servidor web onde podemos inte
 
 Nos arquivos `infra/http/server/fiber/fiberServer.go` e `infra/http/server/gin/fiberGin.go`:
 
-| | |
+| `fiberServer.go`| `ginServer.go` |
 |---|---|
 | ![image](https://github.com/user-attachments/assets/973f7e00-ce48-43e7-b224-0c61c37838e9) | ![image](https://github.com/user-attachments/assets/1364458d-6621-4654-84b3-b98af8c7677f)|
 
