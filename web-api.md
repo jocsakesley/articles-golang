@@ -45,13 +45,13 @@ Nos arquivos `infra/http/server/fiber/fiberServer.go` e `infra/http/server/gin/f
 
 | `fiberServer.go`| `ginServer.go` |
 |---|---|
-| ![image](https://github.com/user-attachments/assets/973f7e00-ce48-43e7-b224-0c61c37838e9) | ![image](https://github.com/user-attachments/assets/1364458d-6621-4654-84b3-b98af8c7677f)|
+|![image](https://github.com/user-attachments/assets/973f7e00-ce48-43e7-b224-0c61c37838e9)|![image](https://github.com/user-attachments/assets/1364458d-6621-4654-84b3-b98af8c7677f)|
 
 Temos a inicialização dos _frameworks_ fiber e gin com uma `scruct` privada (iniciando com letra minúscula) para cada servidor, e um método de instanciação público (`NewFiberServer` e `NewGinServer`) que inicializa o servidor retornando ele mesmo com os métodos da interface `IServer`.  
 
 | `fiberServer.go`| `ginServer.go` |
 |---|---|
-|!![image](https://github.com/user-attachments/assets/ad74054e-4af5-4f80-98e5-5df54755982e)| ![image](https://github.com/user-attachments/assets/4aa5b647-7dc7-43c9-b6a9-ac31226beb0e)|
+|![image](https://github.com/user-attachments/assets/ad74054e-4af5-4f80-98e5-5df54755982e)|![image](https://github.com/user-attachments/assets/4aa5b647-7dc7-43c9-b6a9-ac31226beb0e)|
 
 
 [Início](./index.md)
