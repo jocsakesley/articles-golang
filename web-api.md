@@ -42,6 +42,7 @@ No `IServer` tem o `Get` e o `Post` que recebem o path e o controller como `inte
 O `ÌContext` é uma interface para o contexto do servidor web onde podemos interagir com os metadados da requisição. Normamente o contexto é passado no controller e nele podemos pegar _query_ e _path parameters_, o _body_ e os _headers_ entre outras coisas. Nesse caso o método `Param` espera a chave de um parâmetro definido na rota e retorna o valor passado na URL, o `JSON` espera um _status code_ e um objeto para ser retornado na requisição e o `BodyParser` pega os dados do _body_ e carrega em um objeto para ser manipulado.
 
 Nos arquivos `infra/http/server/fiber/fiberServer.go` e `infra/http/server/gin/fiberGin.go`:
+
 | | |
 |---|---|
 | ![image](https://github.com/user-attachments/assets/973f7e00-ce48-43e7-b224-0c61c37838e9) | ![image](https://github.com/user-attachments/assets/f30af5af-c7a9-440d-8252-b232b3837ca5) |
