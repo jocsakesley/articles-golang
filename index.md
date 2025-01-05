@@ -13,7 +13,7 @@ Porém, pensar apenas em custo/benefício sem pensar em qualidade pode se tornar
 
 Por isso que a entrega de um software vai além de apenas conhecer tecnicamente muito bem uma linguagem, é necessário também, além do conhecimento de negócio, a aplicação das boas práticas de desenvolvimento, que abrangem o que já é tão falado em nosso meio: Clean Code com SOLID, Clean Archtecture, TDD, DDD, BDD, Design Patterns e por aí vai. 
 
-Mas é claro que dominar tudo isso na ponta dos dedos pode ser uma tarefa que pode durar anos de dedicação e aplicação prática, porém a boa notícia é que dá para tirar proveito dos principais conceitos tendo em mente alguns princípios basicos, que aplicados de forma correta farão com que o próprio software grite para você o que ele precisa.
+Mas é claro que dominar tudo isso na ponta dos dedos pode ser uma tarefa que pode durar anos de dedicação e aplicação prática, porém a boa notícia é que dá para tirar proveito dos principais conceitos tendo em mente alguns princípios básicos, que aplicados de forma correta farão com que o próprio software "grite" para você o que ele precisa.
 
 Dessa forma, proponho uma série de artigos que irão documentar a implementação de um cenário comum no meio corporativo, considerando que nem tudo que está proposto já foi implementado por mim, mas que me farão construir, a pequenos passos, um caminho de descobertas e aprendizados. 
 
@@ -27,10 +27,10 @@ Para tanto devo considerar as minhas devidas qualificações e limitações (ten
 - Proficiente na linguagem escolhida para desenvolvimento (golang)
 - Boa experiência com Docker
 - Boa experiência com IaC usando Terraform
-- Bom conhecimento prático com vários recursos da AWS, porém para um contexto de exposição externa preciso validar e aperfeiçoar a minha capacidade prática de execução
-- Conhecimento do funcionamento do Kubernetes, porém como usamos uma camada de abstração desenvolvida pelo pessoal DevOps, muitos detalhes de implementação se tornam transparentes
+- Bom conhecimento prático com vários recursos da AWS
+- Conhecimento do funcionamento do Kubernetes, porém como normalmente uso uma camada de abstração desenvolvida pelo pessoal DevOps, muitos detalhes de implementação se tornam transparentes, mas que pretendo superar essa barreira
 - Conhecimento em SQL (Postgresql e Mysql) e NoSQL (DynamoDB e MongoDB)
-- Conhecimento do funcionamento das pipelines CI/CD do github, mas nunca criei uma pipeline completa com verificação de qualidade e deploy na AWS
+- Conhecimento do funcionamento das pipelines CI/CD do github, com a criação de esteiras simples de deploy, provisionamento de infra e validação de código. 
 - Conhecimento de frameworks de frontend como ReactJS e AngularJS, apesar de não ser minha atividade principal e nem atuar com frequência nesse tipo de demanda
 
 Obs.: Não tenho a intenção de ensinar as bases da linguagem ou das ferramentas, para isso a documentação é sempre o melhor ponto de partida, mas pretendo expôr um modo de pensar que me ajuda a evoluir um projeto conforme a necessidade.
