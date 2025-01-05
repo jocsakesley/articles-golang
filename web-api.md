@@ -67,6 +67,33 @@ Nos arquivos `infra/http/server/fiber/fiberContext.go` e `infra/http/server/gin/
 
 Os métodos definidos pela interface `IContext` (`Param`, `JSON` e `BodyParser`) também são implementados conforme o contexto de cada _framework_.  
 
+No arquivo `controllers/controllers.go`:
+
+![image](https://github.com/user-attachments/assets/b493020b-a80d-47e4-8215-5c10c42ed873)
+
+É possivel notar que cada controller está livre da dependência direta de uma lib específica, com os seus paramêtros definidos como a interface `IContext` criada anteriormente.
+
+E na chamada do método principal no arquivo `cmd/main.go`:
+
+| Com Fiber server | Com Gin Server |
+|---|---|
+|![image](https://github.com/user-attachments/assets/7e89a749-9f93-4194-9934-53e50e0d94b1)|![image](https://github.com/user-attachments/assets/cc217a4a-1e76-48a2-acc9-54c83a16ddb2)|
+
+A livre escolha do _framework_ pode ser modificada com a alteração de apenas uma linha de código chamando uma das implementações, sem alteração do resultado das chamadas à API. 
+
+Como mostrado na chamada da rota `/` com o método `POST` pelo client Postman:
+
+![image](https://github.com/user-attachments/assets/0b544e3d-32c5-4683-af5b-c3b81ee87515)
+
+E na rota `/jocsa` com o método `GET`:
+
+![image](https://github.com/user-attachments/assets/0287561e-8000-4e08-986b-102a5a04294f)
+
+Finalmente podemos ver que apesar de termos mais linhas de código escritas, as responsabilidades e limites estão bem definidos, permitindo uma flexibilidade maior com o mínimo de intervenção em partes críticas e tornando o código muito mais escalável e de fácil manutenção. É claro que em uma aplicação pequena pode parecer exagero, mas pensando em sustentabilidade essa mentalidade pode prevenir muitas dores de cabeça no futuro. 
+
+Em próximos artigos podemos avançar com a implementação de testes funcionais e adentrar nas próximas camadas do software com lógica de negócios e interação com outros recursos externos.
+
+O repositório da implementação completa está disponível [nesse link do github](https://github.com/jocsakesley/webserver-golang).
 
 [Início](./index.md)
 <br>
