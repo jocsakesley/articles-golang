@@ -95,6 +95,7 @@ Em próximos artigos podemos avançar com a implementação de testes funcionais
 
 O repositório da implementação completa está disponível [nesse link do github](https://github.com/jocsakesley/webserver-golang).
 
-[Início](./index.md)
+[04/01/2024 - Início](./index.md)
 <br>
+[04/01/2024 - Criando um servidor web](./web-api.md)
 
