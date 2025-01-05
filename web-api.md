@@ -43,7 +43,7 @@ Eu poderia ter continuado com os demais métodos como o `Delete`, o `Put` e o `P
 
 O `ÌContext` é uma interface para o contexto do servidor web onde podemos interagir com os metadados da requisição. Normamente o contexto é passado no controller e nele podemos pegar _query_ e _path parameters_, o _body_ e os _headers_ entre outras coisas. Nesse caso o método `Param` espera a chave de um parâmetro definido na rota e retorna o valor passado na URL, o `JSON` espera um _status code_ e um objeto para ser retornado na requisição e o `BodyParser` pega os dados do _body_ e carrega em um objeto para ser manipulado.
 
-Nos arquivos `infra/http/server/fiber/fiberServer.go` e `infra/http/server/gin/fiberGin.go`:
+Nos arquivos `infra/http/server/fiber/fiberServer.go` e `infra/http/server/gin/GinServer.go`:
 
 | `fiberServer.go`| `ginServer.go` |
 |---|---|
@@ -54,6 +54,18 @@ Temos a inicialização dos _frameworks_ fiber e gin com uma `scruct` privada (i
 | `fiberServer.go`| `ginServer.go` |
 |---|---|
 |![image](https://github.com/user-attachments/assets/ad74054e-4af5-4f80-98e5-5df54755982e)|![image](https://github.com/user-attachments/assets/4aa5b647-7dc7-43c9-b6a9-ac31226beb0e)|
+
+Os métodos `Get`, `Post` e `Run` foram implementados seguindo a implementação de cada _framework_, onde o `*fiber.App` possui os métodos `Get`, `Post` e `Listen` e o `*gin.Engine` possui os métodos `GET`, `POST` e `Run`.
+
+Para o controller, criei um adapter para cada implementação de forma que ao receber o `handler` do tipo `interface{}`, este seja convertido para o tipo esperado por cada _framework_ web, que recebe a implementação do `ÌContext`.
+
+Nos arquivos `infra/http/server/fiber/fiberContext.go` e `infra/http/server/gin/ginContext.go`:
+
+| `fiberContext.go`| `ginContext.go` |
+|---|---|
+|![image](https://github.com/user-attachments/assets/b7cbb1ac-4f8a-4d2e-a4ce-c2accae73bee)|![image](https://github.com/user-attachments/assets/89ff9657-09bb-4d64-a08f-2c9a565346bd)|
+
+Os métodos definidos pela interface `IContext` (`Param`, `JSON` e `BodyParser`) também são implementados conforme o contexto de cada _framework_.  
 
 
 [Início](./index.md)
