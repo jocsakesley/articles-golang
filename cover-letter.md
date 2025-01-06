@@ -13,12 +13,11 @@ alguns projetos como freelancer para segmentos variados.
 
 A partir desta experiência consegui a primeira grande oportunidade como
 Desenvolvedor Pleno na empresa TCS para atuar com Python e Golang na AWS
-no time de prevenção a fraudes do cliente Rede/Itaú. Com isso, as minhas
+no time de prevenção a fraudes de um grande player do mercado de pagamentos. Com isso, as minhas
 habilidades como desenvolvedor em grandes projetos cresceram de forma
 exponencial devido ao apoio de um time de desenvolvedores fora da curva e a forma como o trabalho é conduzido no time. 
 
-No time de prevenção a fraudes, recebemos todo o fluxo transacional da
-Rede, que é processado visando a performance, disponibilidade,
+No time de prevenção a fraudes, recebemos todo o fluxo transacional, que é processado visando a performance, disponibilidade,
 escalabilidade e resiliência das aplicações, em um ambiente de
 microserviços em nuvem, adotando técnicas de comunicação assíncrona, mensageria,
 multithreading, soluções como Docker e Kubernetes, e serviços AWS como
