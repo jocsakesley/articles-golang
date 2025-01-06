@@ -15,8 +15,7 @@ A partir desta experiência consegui a primeira grande oportunidade como
 Desenvolvedor Pleno na empresa TCS para atuar com Python e Golang na AWS
 no time de prevenção a fraudes do cliente Rede/Itaú. Com isso, as minhas
 habilidades como desenvolvedor em grandes projetos cresceram de forma
-exponencial devido ao apoio de um time de desenvolvedores fora da curva e a adoção de um modelo de desenvolvimento self-service, em que os próprios desenvolvedores são responsáveis pelo provisionamento de infra,
-qualidade e desenho da arquitetura em nuvem. 
+exponencial devido ao apoio de um time de desenvolvedores fora da curva e a forma como o trabalho é conduzido no time. 
 
 No time de prevenção a fraudes, recebemos todo o fluxo transacional da
 Rede, que é processado visando a performance, disponibilidade,
